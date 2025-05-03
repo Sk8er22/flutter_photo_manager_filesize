@@ -54,6 +54,7 @@ interface IDBUtils {
             BUCKET_DISPLAY_NAME, // dir name 目录名字
             WIDTH, // 宽
             HEIGHT, // 高
+            SIZE, // 文件大小
             ORIENTATION, // 角度
             DATE_ADDED, // 创建时间
             DATE_MODIFIED, // 修改时间
@@ -73,6 +74,7 @@ interface IDBUtils {
             DATE_ADDED, // 创建时间
             WIDTH, // 宽
             HEIGHT, // 高
+            SIZE, // 文件大小
             ORIENTATION, // 角度
             DATE_MODIFIED, // 修改时间
             MIME_TYPE, // mime type
