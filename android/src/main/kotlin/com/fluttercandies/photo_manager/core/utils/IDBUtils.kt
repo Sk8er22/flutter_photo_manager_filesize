@@ -196,6 +196,7 @@ interface IDBUtils {
         else getLong(DURATION)
         var width = getInt(WIDTH)
         var height = getInt(HEIGHT)
+        var size = getLong(SIZE)
         val displayName = getString(DISPLAY_NAME)
         val modifiedDate = getLong(DATE_MODIFIED)
         var orientation: Int = getInt(ORIENTATION)
@@ -236,6 +237,7 @@ interface IDBUtils {
             date,
             width,
             height,
+            size,
             getMediaType(type),
             displayName,
             modifiedDate,
