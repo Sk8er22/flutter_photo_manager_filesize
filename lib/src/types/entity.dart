@@ -646,6 +646,7 @@ class AssetEntity {
         size: size,
         format: format,
         quality: quality,
+        resizeContentMode: ResizeContentMode.fill,
       );
     } else {
       option = ThumbnailOption(
